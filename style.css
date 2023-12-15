@@ -3,15 +3,18 @@ body {
     margin: 20px;
     display: flex;
     background-color: #e3b9bc;
-    color: #333;
+    color: #404040;
     flex-direction: column; /* Adjusted to a column layout */
 }
 
 header {
     background-color: #8783d1;
-    color: #737373;
-    padding: 10px;
+    color: #404040;
     text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
 }
 
 header h1 {
@@ -19,7 +22,7 @@ header h1 {
 }
 
 .description {
-    color: #ddd;
+    color: #404040;
 }
 
 .ingredients, .instructions {
