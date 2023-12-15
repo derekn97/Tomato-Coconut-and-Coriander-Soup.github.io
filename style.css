@@ -27,7 +27,7 @@ header h1 {
 
 .ingredients, .instructions {
     flex: 0 0 100%;
-    background-color: #aa9aba;
+    background-color: #e3b9bc;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
