@@ -22,15 +22,11 @@ header h1 {
 
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
-.ingredientssoup {
+.ingredients {
     flex: 0 0 30%; /* Set the width of the ingredients column to 30% */
   background-color: #f1f1f1; /* Grey background color */
   padding: 20px; /* Some padding */
 }
-.ingredientsgarnish {
-    flex: 0 0 30%; /* Set the width of the ingredients column to 30% */
-  background-color: #f1f1f1; /* Grey background color */
-  padding: 20px; /* Some padding */
 
 /* Main column */
 .instructions {
