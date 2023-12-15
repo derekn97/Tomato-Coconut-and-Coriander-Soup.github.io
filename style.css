@@ -22,15 +22,20 @@ header h1 {
 
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
-.side {
-  flex: 30%; /* Set the width of the sidebar */
+.ingredientssoup {
+    flex: 0 0 30%; /* Set the width of the ingredients column to 30% */
   background-color: #f1f1f1; /* Grey background color */
   padding: 20px; /* Some padding */
 }
+.ingredientsgarnish {
+    flex: 0 0 30%; /* Set the width of the ingredients column to 30% */
+  background-color: #f1f1f1; /* Grey background color */
+  padding: 20px; /* Some padding */
 
 /* Main column */
-.main {
-  flex: 70%; /* Set the width of the main content */
+.instructions {
+    flex: 1; /* Take the remaining space in the row */
+    margin-left: 20px; /* Add some space between columns */
   background-color: white; /* White background color */
   padding: 20px; /* Some padding */
 }
@@ -43,5 +48,4 @@ header h1 {
 footer {
   padding: 20px; /* Some padding */
   text-align: center; /* Center text*/
-  background: #ddd; /* Grey background */
 }
