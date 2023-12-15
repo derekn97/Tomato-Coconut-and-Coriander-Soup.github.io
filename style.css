@@ -2,7 +2,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 20px;
     display: flex;
-    background-color: #e3b9bc;
+    background-color: #f0ead6;
     color: #404040;
     flex-direction: column; /* Adjusted to a column layout */
 }
