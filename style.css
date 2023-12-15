@@ -7,7 +7,7 @@ body {
     flex-direction: column; /* Adjusted to a column layout */
 }
 
-header, footer {
+header {
     background-color: #333;
     color: #fff;
     padding: 10px;
@@ -59,12 +59,4 @@ li {
 
 .instructions p {
     line-height: 1.6;
-}
-
-footer {
-    margin-top: 20px;
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
 }
